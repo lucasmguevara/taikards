@@ -15,6 +15,9 @@ Visitar http://localhost:5188. Se puede configurar otro puerto con la variable `
 
 ## Editar
 
+- `instructions.mjs`: guía de juego y acceso ilustrado de la portada. Transcripción adaptada de las dos hojas existentes en `Pagina_Yokai/taikards1.png` y `taikards2.png`, y del texto de la guía de legendarias. Incluye preparación, victoria a 2 puntos, combate, elementos, campos, desafíos y partidas más largas.
+- `guide.css`: diseño de instrucciones con texto legible en celulares; `assets/instrucciones/` contiene copias WebP de las dos láminas y sus miniaturas.
+
 - `data.mjs`: nombres, clasificación, relatos y consignas.
 - `styles.css`: estructura adaptable a celulares y escritorio.
 - `kids.css`: tema de libro de leyendas, diseñado primero para celulares: pergamino mediante CSS y SVG, tintas cálidas, letras claras, controles de al menos 48 px y relatos de 18 px. Conserva los colores por naturaleza y amplía la distribución en pantallas grandes con consultas `min-width`.
