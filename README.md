@@ -21,6 +21,7 @@ Visitar http://localhost:5188. Se puede configurar otro puerto con la variable `
 - `app.js`: búsqueda, filtros persistidos en URL, orden, selección al azar y ampliación accesible con Escape.
 - `scripts/build.mjs`: genera inicio y 48 fichas usando las imágenes optimizadas del repositorio, sin dependencias externas. Solo para importar imágenes nuevas se necesita instalar `sharp` como dependencia de desarrollo y configurar `TAIKARDS_CARDS` con la ubicación de los originales.
 - `assets/cards`: imágenes optimizadas propias del sitio; los originales permanecen intactos.
+- `logo_taikards.png`: original vigente del logo, con letras verdes y amarillas alternadas. `assets/logo_taikards.png` es su copia pública; las versiones WebP de 360 y 1000 px se usan en encabezado, pie y portada. Al reemplazar el original, regenerar esas dos versiones conservando la proporción.
 
 Ejecutar `npm run build` después de cambiar datos o plantillas; `npm run check` verifica clasificación, páginas y enlaces. Para cambiar las imágenes de origen se puede configurar `TAIKARDS_CARDS`; borrar únicamente las copias WebP que se desee regenerar (el generador conserva las existentes).
 
